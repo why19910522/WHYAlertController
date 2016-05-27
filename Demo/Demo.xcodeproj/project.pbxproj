@@ -14,6 +14,7 @@
 		90DD3A101CF848430032935A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90DD3A0F1CF848430032935A /* Assets.xcassets */; };
 		90DD3A131CF848430032935A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90DD3A111CF848430032935A /* LaunchScreen.storyboard */; };
 		90DD3A1E1CF848430032935A /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DD3A1D1CF848430032935A /* DemoUITests.m */; };
+		90DD3A2B1CF848C90032935A /* WHYAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DD3A2A1CF848C90032935A /* WHYAlertController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		90DD3A191CF848430032935A /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90DD3A1D1CF848430032935A /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		90DD3A1F1CF848430032935A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90DD3A291CF848C90032935A /* WHYAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHYAlertController.h; sourceTree = "<group>"; };
+		90DD3A2A1CF848C90032935A /* WHYAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHYAlertController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 		90DD3A281CF848690032935A /* WHYAlertController */ = {
 			isa = PBXGroup;
 			children = (
+				90DD3A291CF848C90032935A /* WHYAlertController.h */,
+				90DD3A2A1CF848C90032935A /* WHYAlertController.m */,
 			);
 			name = WHYAlertController;
 			path = ../../WHYAlertController;
@@ -223,6 +228,7 @@
 				90DD3A0B1CF848430032935A /* ViewController.m in Sources */,
 				90DD3A081CF848430032935A /* AppDelegate.m in Sources */,
 				90DD3A051CF848430032935A /* main.m in Sources */,
+				90DD3A2B1CF848C90032935A /* WHYAlertController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
